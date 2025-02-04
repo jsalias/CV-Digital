@@ -386,20 +386,24 @@ opacity: 0;
             
         }
         header{
-            background-image: url(Imagenes/fondo-header.jpg);
+            
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            height: 35%;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            height: auto;
         }
         .contenedor-foto{
-            width: 25%;
+            width: auto;
+            height: auto;
         }
         .foto{
-            margin-left: 20px;
-            margin-top: 20px;
-            width: 75%;
+         
+            width:50%;
             border-radius: 50%;
+            
         }
         .foto:hover{
             transform: scale(1.1);
@@ -407,45 +411,57 @@ opacity: 0;
         }
 
         .contenedor-informacion-personal{
-            width: 50%;
+            width: 80%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 80px;
+            margin: 0;
+         
        }
-       .na{
-           display: flex;
-           flex-direction: column;
-           align-items: end;
-      
-       }
+
+       .na1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+   
+    }
+    .na{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
        
-       .like{
-           display: flex;
-           align-items: end;
-           margin: 5px;
-           margin-top: 10px;
-           font-weight: 600;  
-           font-size: 8px;
-       }
-       nav ul li:hover{
-           color: grey;
-           transition: 0.7s;
-       }
+    }
+    
+ 
+
+    nav ul li {
+        font-weight: 600;  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    nav ul li:hover{
+        color: grey;
+        transition: 0.7s;
+    }
        #nombre{
-           font-size: 14px;
+           font-size: 20px;
        }
        #profesion{
-        font-size: 10px;
+        font-size: 12px;
        }
        
        #area{
-            width: 120%;
+            width:auto;
             height: auto;
-            border: none;
-            resize: none;
+           
             opacity: 1;
-            font-size: 8px;
+            font-size: 10px;
             font-weight: 800;
             margin-top: 15px;
             text-align: center;
@@ -518,9 +534,9 @@ opacity: 0;
             flex-wrap: wrap;
             text-align: center;
             align-items: center;
-            width: 100%;
+            width: 90%;
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 70px;
             margin-top: 100px;
            margin-right: 20px;
          
@@ -742,10 +758,9 @@ opacity: 0;
                 padding: 0;
                 display: inline-block;
                 position: relative;
-                overflow: hidden;
                 font-size: 20px;
                 font-weight: 100;
-                padding-bottom: 50px;
+      
              
               
             }
@@ -759,8 +774,7 @@ opacity: 0;
                 background-color:rgba(0,0,0,0.7);
                 position: relative;
                 bottom: 0px;
-                margin-top: 20px; /* Espacio entre imagen y texto */
-                bottom: -70px; /* Ajuste posición inicial */
+                margin-top: 20px;
                 transition: all 0.7s;
                
                
